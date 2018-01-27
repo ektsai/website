@@ -1,0 +1,25 @@
+# BEGIN Wordpress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+</IfModule>
+# END WordPress
+
+FileETag none
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault A0
+ExpiresByType image/gif A86400
+ExpiresByType image/png A86400
+ExpiresByType image/jpg A86400
+ExpiresByType image/jpeg A86400
+ExpiresByType image/ico A86400
+ExpiresByType text/css A86400
+ExpiresByType text/javascript A86400
+</IfModule>

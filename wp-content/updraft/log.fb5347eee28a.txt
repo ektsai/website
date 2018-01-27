@@ -1,0 +1,605 @@
+0000.000 (0) Opened log file at time: Sat, 27 Jan 2018 05:59:54 +0000 on http://ericktsai.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.6 WP: 4.0 PHP: 5.5.9-1ubuntu4.16 (Linux droplet1.ericktsai.com 3.13.0-37-generic #64-Ubuntu SMP Mon Sep 22 21:28:38 UTC 2014 x86_64) MySQL: 5.5.40 WPLANG:  Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 2.7M | 3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 15948.9 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.007 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.011 (0) Set semaphore last lock (fd) time to 2018-01-27 05:59:54
+0000.012 (0) Semaphore lock (fd) complete
+0000.016 (0) Backup run: resumption=0, nonce=fb5347eee28a, begun at=1517032794 (0s ago), job type=backup
+0000.019 (0) Scheduling a resumption (1) after 300 seconds (1517033094) in case this run gets aborted
+0000.022 (0) Checking if we have a zip executable available
+0000.023 (0) Testing: /usr/bin/zip
+0000.029 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.031 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.032 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.034 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0000.034 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0000.039 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0000.041 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0000.044 (0) Working binary zip found: /usr/bin/zip
+0000.047 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.048 (0) Creation of backups of directories: beginning
+0000.054 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.088 (0) Total entities for the zip file: 194 directories, 1218 files (0 skipped as non-modified), 23 MB
+0000.092 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.096 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.099 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.102 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.107 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.108 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 1218 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.276 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip.tmp: size is now: 0.90 MB
+0000.282 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip.tmp: 600 files added (on-disk size: 908.4 KB)
+0000.286 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip.tmp: 700 files added (on-disk size: 908.4 KB)
+0000.290 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip.tmp: 800 files added (on-disk size: 908.4 KB)
+0000.294 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip.tmp: 900 files added (on-disk size: 908.4 KB)
+0000.298 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip.tmp: 1000 files added (on-disk size: 908.4 KB)
+0000.299 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.9 MB, 1218 files batched, 501 (1002) added so far); re-opening (prior size: 908.4 KB)
+0001.199 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip.tmp: size is now: 5.20 MB
+0001.206 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip.tmp: 1100 files added (on-disk size: 5329.4 KB)
+0001.215 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip.tmp: 1200 files added (on-disk size: 5329.4 KB)
+0001.547 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip.tmp: size is now: 7.80 MB
+0001.597 (0) Created plugins zip (0) - 7995.3 KB in 1.5 s (5189.9 KB/s) (SHA1 checksum: f1167d73aa9fb8bd57400191aeb8155d0cb1071a)
+0001.603 (0) Beginning creation of dump of themes (split every: 400 MB)
+0001.619 (0) Total entities for the zip file: 64 directories, 463 files (0 skipped as non-modified), 7.1 MB
+0001.623 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.628 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.632 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.636 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.860 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip.tmp: size is now: 5.20 MB
+0001.893 (0) Created themes zip (0) - 5312.1 KB in 0.3 s (18465.9 KB/s) (SHA1 checksum: 29a9f2ffc66f85d5e5a203fa2e07002ee846e647)
+0001.896 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0001.898 (0) Looking for candidates to back up in: /var/www/html/wp-content/uploads
+0001.899 (0) finding files: 2015: adding to list (1)
+0001.899 (0) finding files: 2018: adding to list (2)
+0001.900 (0) finding files: profiles: adding to list (3)
+0001.901 (0) finding files: minit: adding to list (4)
+0001.902 (0) finding files: 2017: adding to list (5)
+0001.903 (0) finding files: 2016: adding to list (6)
+0001.903 (0) finding files: 2014: adding to list (7)
+0001.904 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0001.918 (0) Total entities for the zip file: 49 directories, 448 files (0 skipped as non-modified), 57.4 MB
+0001.921 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.924 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 448 files batched, 146 (146) added so far); re-opening (prior size: 0 KB)
+0002.125 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip.tmp: size is now: 25.10 MB
+0002.130 (0) A useful amount of data was added after this amount of zip processing: 1 s (normalised: 1 s, rate: 25328.8 KB/s)
+0002.132 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.0131139755249, normalised_time=1.0107080382156, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=155620014)
+0002.135 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip.tmp: 200 files added (on-disk size: 25681.8 KB)
+0002.138 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip.tmp: 300 files added (on-disk size: 25681.8 KB)
+0002.142 (0) Zip: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip.tmp: 400 files added (on-disk size: 25681.8 KB)
+0002.516 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip.tmp: size is now: 57.10 MB
+0002.811 (0) Created uploads zip (0) - 58459.1 KB in 0.9 s (64614.1 KB/s) (SHA1 checksum: a205b74d5c425f5e368b038ac8888c5b314e0e76)
+0002.815 (0) Beginning backup of other directories found in the content directory (index: 0)
+0002.816 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0002.818 (0) Looking for candidates to back up in: /var/www/html/wp-content
+0002.819 (0) finding files: advanced-cache.php: adding to list (1)
+0002.820 (0) finding files: upgrade: skipping: excluded by options
+0002.822 (0) finding files: index.php: adding to list (2)
+0002.822 (0) finding files: cache: skipping: excluded by options
+0002.823 (0) finding files: updraft: skipping: this is the updraft directory
+0002.825 (0) finding files: uploads: skipping: this is the uploads directory
+0002.827 (0) finding files: wp-cache-config.php: adding to list (3)
+0002.828 (0) finding files: mu-plugins: adding to list (4)
+0002.830 (0) finding files: themes: skipping: this is the themes directory
+0002.831 (0) finding files: plugins: skipping: this is the plugins directory
+0002.836 (0) Total entities for the zip file: 1 directories, 3 files (0 skipped as non-modified), 0 MB
+0002.844 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-others.zip.tmp: size is now: 0.00 MB
+0002.849 (0) Created others zip (0) - 3.1 KB in 0 s (183.4 KB/s) (SHA1 checksum: 318a0b9c5e427e1fb7981c256e54b0e5de71352e)
+0002.857 (0) Saving backup status to database (elements: 8)
+0002.860 (0) Beginning creation of database dump (WordPress DB)
+0002.866 (0) Testing: /usr/bin/mysqldump
+0002.879 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0002.887 (0) Table wp_options: Total expected rows (approximate): 417
+0002.911 (0) Table wp_options: Total rows added: 297 in 0.02 seconds
+0002.915 (0) Table wp_options: finishing file (backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_options.table.gz - 67.9 KB)
+0002.920 (0) Table wp_users: Total expected rows (approximate): 1
+0002.923 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0002.924 (0) Table wp_users: finishing file (backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_users.table.gz - 0.5 KB)
+0002.929 (0) Table wp_usermeta: Total expected rows (approximate): 25
+0002.932 (0) Table wp_usermeta: Total rows added: 25 in 0.00 seconds
+0002.934 (0) Table wp_usermeta: finishing file (backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_usermeta.table.gz - 1.1 KB)
+0002.938 (0) Table wp_commentmeta: Total expected rows (approximate): 66
+0002.942 (0) Table wp_commentmeta: Total rows added: 66 in 0.00 seconds
+0002.944 (0) Table wp_commentmeta: finishing file (backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_commentmeta.table.gz - 2 KB)
+0002.950 (0) Table wp_comments: Total expected rows (approximate): 17
+0002.955 (0) Table wp_comments: Total rows added: 26 in 0.00 seconds
+0002.958 (0) Table wp_comments: finishing file (backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_comments.table.gz - 7.8 KB)
+0002.963 (0) Table wp_links: Total expected rows (approximate): 0
+0002.966 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0002.967 (0) Table wp_links: finishing file (backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_links.table.gz - 0.4 KB)
+0002.972 (0) Table wp_postmeta: Total expected rows (approximate): 614
+0002.986 (0) Table wp_postmeta: Total rows added: 477 in 0.01 seconds
+0002.988 (0) Table wp_postmeta: finishing file (backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_postmeta.table.gz - 12 KB)
+0002.995 (0) Table wp_posts: Total expected rows (approximate): 654
+0003.082 (0) Table wp_posts: Total rows added: 545 in 0.09 seconds
+0003.086 (0) Table wp_posts: finishing file (backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_posts.table.gz - 115.4 KB)
+0003.091 (0) Table wp_term_relationships: Total expected rows (approximate): 26
+0003.094 (0) Table wp_term_relationships: Total rows added: 26 in 0.00 seconds
+0003.096 (0) Table wp_term_relationships: finishing file (backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0003.101 (0) Table wp_term_taxonomy: Total expected rows (approximate): 8
+0003.104 (0) Table wp_term_taxonomy: Total rows added: 8 in 0.00 seconds
+0003.106 (0) Table wp_term_taxonomy: finishing file (backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0003.111 (0) Table wp_terms: Total expected rows (approximate): 8
+0003.113 (0) Table wp_terms: Total rows added: 8 in 0.00 seconds
+0003.115 (0) Table wp_terms: finishing file (backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_terms.table.gz - 0.5 KB)
+0003.119 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_options.table.gz (1/11): adding to final database dump
+0003.137 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_users.table.gz (2/11): adding to final database dump
+0003.140 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_usermeta.table.gz (3/11): adding to final database dump
+0003.143 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_commentmeta.table.gz (4/11): adding to final database dump
+0003.144 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_comments.table.gz (5/11): adding to final database dump
+0003.147 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_links.table.gz (6/11): adding to final database dump
+0003.150 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_postmeta.table.gz (7/11): adding to final database dump
+0003.157 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_posts.table.gz (8/11): adding to final database dump
+0003.200 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_term_relationships.table.gz (9/11): adding to final database dump
+0003.203 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_term_taxonomy.table.gz (10/11): adding to final database dump
+0003.205 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db-table-wp_terms.table.gz (11/11): adding to final database dump
+0003.206 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db.gz: finished writing out complete database file (184 KB)
+0003.214 (0) Total database tables backed up: 11 (backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db.gz, size: 211417, checksum (SHA1): 3eb466767f8b47dc69baebd92804df67ed5a7bdc)
+0003.220 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0003.223 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0003.224 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0003.225 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-others.zip: others: This file has not yet been successfully uploaded: will queue
+0003.226 (0) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0003.227 (0) Saving backup history. Total backup size: 70.3 MB
+0003.230 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0003.234 (0) Cloud backup selection (1/1): dropbox (last)
+0003.235 (0) Beginning dispatch of backup to remote (dropbox)
+0003.237 (0) Dropbox: begin cloud upload
+0003.240 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0003.449 (0) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+0003.453 (0) Dropbox: Attempt to upload: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip to: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip
+0003.788 (0) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /var/www/html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0003.791 (0) Dropbox error: User has removed their App folder.
+0003.792 (0) An error condition has occurred for the first time during this job
+0003.986 (0) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+0003.989 (0) Dropbox: Attempt to upload: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip to: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip
+0004.245 (0) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /var/www/html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0004.248 (0) Dropbox error: User has removed their App folder.
+0004.426 (0) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+0004.429 (0) Dropbox: Attempt to upload: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip to: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip
+0004.676 (0) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /var/www/html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0004.680 (0) Dropbox error: User has removed their App folder.
+0004.877 (0) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+0004.879 (0) Dropbox: Attempt to upload: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-others.zip to: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-others.zip
+0005.098 (0) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /var/www/html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0005.101 (0) Dropbox error: User has removed their App folder.
+0005.301 (0) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+0005.305 (0) Dropbox: Attempt to upload: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db.gz to: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db.gz
+0005.520 (0) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /var/www/html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0005.523 (0) Dropbox error: User has removed their App folder.
+0005.526 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0005.527 (0) Number of backup sets in history: 2; groups (db): 1
+0005.528 (0) Examining (for databases) backup set with group_id=0, nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+0005.530 (0) This backup set is the backup set just made, so will not be deleted.
+0005.530 (0) Examining (for databases) backup set with group_id=0, nonce=517bd8b2820b, datestamp=1463530269 (May 18 2016 00:11:09)
+0005.531 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0005.532 (0) Number of backup sets in history: 2; groups (files): 1
+0005.533 (0) Examining (for files) backup set with nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+0005.534 (0) This backup set is the backup set just made, so will not be deleted.
+0005.535 (0) This backup set is the backup set just made, so will not be deleted.
+0005.535 (0) This backup set is the backup set just made, so will not be deleted.
+0005.535 (0) This backup set is the backup set just made, so will not be deleted.
+0005.535 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0005.536 (0) Examining (for files) backup set with nonce=517bd8b2820b, datestamp=1463530269 (May 18 2016 00:11:09)
+0005.538 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0005.538 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0005.542 (0) Resume backup (fb5347eee28a, 0): finish run
+0005.545 (0) Decremented the semaphore (fd) by 1
+0005.546 (0) Semaphore (fd) unlocked
+0005.547 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0005.550 (0) Rescheduling resumption 1: moving to 120 seconds from now (1517032920)
+0005.552 (0) No email will/can be sent - the user has not configured an email address.
+0005.554 (0) The backup has not finished; a resumption is scheduled
+0127.752 (1) Opened log file at time: Sat, 27 Jan 2018 06:02:02 +0000 on http://ericktsai.com
+0127.753 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.6 WP: 4.0 PHP: 5.5.9-1ubuntu4.16 (Linux droplet1.ericktsai.com 3.13.0-37-generic #64-Ubuntu SMP Mon Sep 22 21:28:38 UTC 2014 x86_64) MySQL: 5.5.40 WPLANG:  Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 2.1M | 2.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+0127.754 (1) Free space on disk containing Updraft's temporary directory: 15878.6 MB
+0127.756 (1) Backup run: resumption=1, nonce=fb5347eee28a, begun at=1517032794 (128s ago), job type=backup, previous check-in=3.1s
+0127.758 (1) Scheduling a resumption (2) after 300 seconds (1517033222) in case this run gets aborted
+0127.760 (1) Checking if we have a zip executable available
+0127.761 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0127.761 (1) Creation of backups of directories: already finished
+0127.762 (1) Saving backup status to database (elements: 8)
+0127.764 (1) Database dump (WordPress DB): Creation was completed already
+0127.769 (1) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0127.770 (1) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0127.770 (1) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0127.771 (1) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-others.zip: others: This file has not yet been successfully uploaded: will queue
+0127.772 (1) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0127.773 (1) Saving backup history. Total backup size: 70.3 MB
+0127.775 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0127.777 (1) Cloud backup selection (1/1): dropbox (last)
+0127.778 (1) Beginning dispatch of backup to remote (dropbox)
+0127.778 (1) Dropbox: begin cloud upload
+0127.781 (1) Dropbox: access gained; setting chunk size to: 1024 KB
+0127.994 (1) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+0127.996 (1) Dropbox: Attempt to upload: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip to: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip
+0128.241 (1) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /var/www/html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0128.243 (1) Dropbox error: User has removed their App folder.
+0128.244 (1) An error condition has occurred for the first time during this job
+0128.450 (1) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+0128.452 (1) Dropbox: Attempt to upload: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip to: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip
+0128.960 (1) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /var/www/html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0128.963 (1) Dropbox error: User has removed their App folder.
+0129.145 (1) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+0129.149 (1) Dropbox: Attempt to upload: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip to: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip
+0129.434 (1) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /var/www/html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0129.436 (1) Dropbox error: User has removed their App folder.
+0129.630 (1) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+0129.632 (1) Dropbox: Attempt to upload: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-others.zip to: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-others.zip
+0129.824 (1) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /var/www/html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0129.827 (1) Dropbox error: User has removed their App folder.
+0130.079 (1) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: User has removed their App folder.
+0130.081 (1) Dropbox: Attempt to upload: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db.gz to: backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db.gz
+0130.374 (1) Dropbox chunked upload exception (Dropbox_Exception): User has removed their App folder. (line: 177, file: /var/www/html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0130.376 (1) Dropbox error: User has removed their App folder.
+0130.380 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0130.383 (1) Number of backup sets in history: 2; groups (db): 1
+0130.384 (1) Examining (for databases) backup set with group_id=0, nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+0130.385 (1) This backup set is the backup set just made, so will not be deleted.
+0130.386 (1) Examining (for databases) backup set with group_id=0, nonce=517bd8b2820b, datestamp=1463530269 (May 18 2016 00:11:09)
+0130.387 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0130.387 (1) Number of backup sets in history: 2; groups (files): 1
+0130.388 (1) Examining (for files) backup set with nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+0130.389 (1) This backup set is the backup set just made, so will not be deleted.
+0130.390 (1) This backup set is the backup set just made, so will not be deleted.
+0130.390 (1) This backup set is the backup set just made, so will not be deleted.
+0130.391 (1) This backup set is the backup set just made, so will not be deleted.
+0130.391 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0130.392 (1) Examining (for files) backup set with nonce=517bd8b2820b, datestamp=1463530269 (May 18 2016 00:11:09)
+0130.393 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0130.394 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0130.396 (1) Resume backup (fb5347eee28a, 1): finish run
+0130.397 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0130.400 (1) No email will/can be sent - the user has not configured an email address.
+0130.401 (1) The backup has not finished; a resumption is scheduled
+0434.866 (2) Opened log file at time: Sat, 27 Jan 2018 06:07:09 +0000 on http://ericktsai.com
+0434.867 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.6 WP: 4.0 PHP: 5.5.9-1ubuntu4.16 (Linux droplet1.ericktsai.com 3.13.0-37-generic #64-Ubuntu SMP Mon Sep 22 21:28:38 UTC 2014 x86_64) MySQL: 5.5.40 WPLANG:  Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 2.1M | 2.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+0434.869 (2) Free space on disk containing Updraft's temporary directory: 15808.3 MB
+0434.871 (2) Backup run: resumption=2, nonce=fb5347eee28a, begun at=1517032794 (435s ago), job type=backup
+0434.874 (2) Scheduling a resumption (3) after 300 seconds (1517033529) in case this run gets aborted
+0434.875 (2) Checking if we have a zip executable available
+0434.877 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0434.878 (2) Creation of backups of directories: already finished
+0434.879 (2) Saving backup status to database (elements: 8)
+0434.883 (2) Database dump (WordPress DB): Creation was completed already
+0434.891 (2) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0434.894 (2) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0434.895 (2) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0434.896 (2) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-others.zip: others: This file has not yet been successfully uploaded: will queue
+0434.899 (2) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0434.900 (2) Saving backup history. Total backup size: 70.3 MB
+0434.906 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+0434.910 (2) Cloud backup selection (1/1): dropbox (last)
+0434.912 (2) Beginning dispatch of backup to remote (dropbox)
+0434.914 (2) Dropbox: begin cloud upload
+0435.055 (2) invalid_request - need to reauthenticate this site with Dropbox (if this fails, then you can also try wiping your settings from the Expert Settings section)
+0435.232 (2) Dropbox Curl error: v1_retired
+0435.235 (2) An error condition has occurred for the first time during this job
+0435.236 (2) Dropbox error when trying to gain access: You do not appear to be authenticated with Dropbox (line: 115, file: /var/www/html/wp-content/plugins/updraftplus/methods/dropbox.php)
+0435.239 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0435.240 (2) Number of backup sets in history: 2; groups (db): 1
+0435.242 (2) Examining (for databases) backup set with group_id=0, nonce=a731f81a62c1, datestamp=1517033150 (Jan 27 2018 06:05:50)
+0435.242 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0435.243 (2) Examining (for databases) backup set with group_id=0, nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+0435.244 (2) This backup set is the backup set just made, so will not be deleted.
+0435.245 (2) Number of backup sets in history: 2; groups (files): 1
+0435.246 (2) Examining (for files) backup set with nonce=a731f81a62c1, datestamp=1517033150 (Jan 27 2018 06:05:50)
+0435.247 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0435.248 (2) Examining (for files) backup set with nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+0435.250 (2) This backup set is the backup set just made, so will not be deleted.
+0435.250 (2) This backup set is the backup set just made, so will not be deleted.
+0435.251 (2) This backup set is the backup set just made, so will not be deleted.
+0435.251 (2) This backup set is the backup set just made, so will not be deleted.
+0435.251 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0435.252 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0435.255 (2) Resume backup (fb5347eee28a, 2): finish run
+0435.257 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0435.259 (2) No email will/can be sent - the user has not configured an email address.
+0435.260 (2) The backup has not finished; a resumption is scheduled
+0740.019 (3) Opened log file at time: Sat, 27 Jan 2018 06:12:14 +0000 on http://ericktsai.com
+0740.020 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.6 WP: 4.0 PHP: 5.5.9-1ubuntu4.16 (Linux droplet1.ericktsai.com 3.13.0-37-generic #64-Ubuntu SMP Mon Sep 22 21:28:38 UTC 2014 x86_64) MySQL: 5.5.40 WPLANG:  Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 2.1M | 2.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+0740.022 (3) Free space on disk containing Updraft's temporary directory: 15808.2 MB
+0740.025 (3) Backup run: resumption=3, nonce=fb5347eee28a, begun at=1517032794 (740s ago), job type=backup
+0740.028 (3) Scheduling a resumption (4) after 300 seconds (1517033834) in case this run gets aborted
+0740.031 (3) Checking if we have a zip executable available
+0740.032 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+0740.034 (3) Creation of backups of directories: already finished
+0740.035 (3) Saving backup status to database (elements: 8)
+0740.038 (3) Database dump (WordPress DB): Creation was completed already
+0740.044 (3) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0740.046 (3) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0740.047 (3) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0740.048 (3) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-others.zip: others: This file has not yet been successfully uploaded: will queue
+0740.048 (3) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0740.050 (3) Saving backup history. Total backup size: 70.3 MB
+0740.053 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+0740.056 (3) Cloud backup selection (1/1): dropbox (last)
+0740.057 (3) Beginning dispatch of backup to remote (dropbox)
+0740.058 (3) Dropbox: begin cloud upload
+0740.175 (3) invalid_request - need to reauthenticate this site with Dropbox (if this fails, then you can also try wiping your settings from the Expert Settings section)
+0740.339 (3) Dropbox Curl error: v1_retired
+0740.343 (3) An error condition has occurred for the first time during this job
+0740.345 (3) Dropbox error when trying to gain access: You do not appear to be authenticated with Dropbox (line: 115, file: /var/www/html/wp-content/plugins/updraftplus/methods/dropbox.php)
+0740.351 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0740.355 (3) Number of backup sets in history: 2; groups (db): 1
+0740.356 (3) Examining (for databases) backup set with group_id=0, nonce=aee52ca889b7, datestamp=1517033445 (Jan 27 2018 06:10:45)
+0740.358 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0740.359 (3) Examining (for databases) backup set with group_id=0, nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+0740.360 (3) This backup set is the backup set just made, so will not be deleted.
+0740.362 (3) Number of backup sets in history: 2; groups (files): 1
+0740.363 (3) Examining (for files) backup set with nonce=aee52ca889b7, datestamp=1517033445 (Jan 27 2018 06:10:45)
+0740.364 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0740.366 (3) Examining (for files) backup set with nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+0740.367 (3) This backup set is the backup set just made, so will not be deleted.
+0740.368 (3) This backup set is the backup set just made, so will not be deleted.
+0740.368 (3) This backup set is the backup set just made, so will not be deleted.
+0740.369 (3) This backup set is the backup set just made, so will not be deleted.
+0740.369 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0740.370 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0740.374 (3) Resume backup (fb5347eee28a, 3): finish run
+0740.376 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0740.379 (3) No email will/can be sent - the user has not configured an email address.
+0740.380 (3) The backup has not finished; a resumption is scheduled
+1092.461 (4) Opened log file at time: Sat, 27 Jan 2018 06:18:07 +0000 on http://ericktsai.com
+1092.462 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.6 WP: 4.0 PHP: 5.5.9-1ubuntu4.16 (Linux droplet1.ericktsai.com 3.13.0-37-generic #64-Ubuntu SMP Mon Sep 22 21:28:38 UTC 2014 x86_64) MySQL: 5.5.40 WPLANG:  Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 2.1M | 2.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+1092.463 (4) Free space on disk containing Updraft's temporary directory: 15808.2 MB
+1092.466 (4) Backup run: resumption=4, nonce=fb5347eee28a, begun at=1517032794 (1093s ago), job type=backup
+1092.468 (4) Scheduling a resumption (5) after 300 seconds (1517034187) in case this run gets aborted
+1092.471 (4) Checking if we have a zip executable available
+1092.472 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+1092.473 (4) Creation of backups of directories: already finished
+1092.474 (4) Saving backup status to database (elements: 8)
+1092.476 (4) Database dump (WordPress DB): Creation was completed already
+1092.480 (4) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1092.481 (4) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1092.482 (4) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1092.482 (4) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-others.zip: others: This file has not yet been successfully uploaded: will queue
+1092.483 (4) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db.gz: db: This file has not yet been successfully uploaded: will queue
+1092.484 (4) Saving backup history. Total backup size: 70.3 MB
+1092.486 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+1092.487 (4) Cloud backup selection (1/1): dropbox (last)
+1092.488 (4) Beginning dispatch of backup to remote (dropbox)
+1092.489 (4) Dropbox: begin cloud upload
+1092.674 (4) invalid_request - need to reauthenticate this site with Dropbox (if this fails, then you can also try wiping your settings from the Expert Settings section)
+1092.829 (4) Dropbox Curl error: v1_retired
+1092.832 (4) An error condition has occurred for the first time during this job
+1092.834 (4) Dropbox error when trying to gain access: You do not appear to be authenticated with Dropbox (line: 115, file: /var/www/html/wp-content/plugins/updraftplus/methods/dropbox.php)
+1092.838 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1092.841 (4) Number of backup sets in history: 2; groups (db): 1
+1092.843 (4) Examining (for databases) backup set with group_id=0, nonce=aee52ca889b7, datestamp=1517033445 (Jan 27 2018 06:10:45)
+1092.845 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1092.846 (4) Examining (for databases) backup set with group_id=0, nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+1092.848 (4) This backup set is the backup set just made, so will not be deleted.
+1092.850 (4) Number of backup sets in history: 2; groups (files): 1
+1092.851 (4) Examining (for files) backup set with nonce=aee52ca889b7, datestamp=1517033445 (Jan 27 2018 06:10:45)
+1092.853 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1092.854 (4) Examining (for files) backup set with nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+1092.856 (4) This backup set is the backup set just made, so will not be deleted.
+1092.857 (4) This backup set is the backup set just made, so will not be deleted.
+1092.857 (4) This backup set is the backup set just made, so will not be deleted.
+1092.858 (4) This backup set is the backup set just made, so will not be deleted.
+1092.858 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1092.859 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1092.861 (4) Resume backup (fb5347eee28a, 4): finish run
+1092.863 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1092.866 (4) No email will/can be sent - the user has not configured an email address.
+1092.868 (4) The backup has not finished; a resumption is scheduled
+1487.143 (5) Opened log file at time: Sat, 27 Jan 2018 06:24:42 +0000 on http://ericktsai.com
+1487.144 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.6 WP: 4.0 PHP: 5.5.9-1ubuntu4.16 (Linux droplet1.ericktsai.com 3.13.0-37-generic #64-Ubuntu SMP Mon Sep 22 21:28:38 UTC 2014 x86_64) MySQL: 5.5.40 WPLANG:  Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 2.1M | 2.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+1487.146 (5) Free space on disk containing Updraft's temporary directory: 15808.1 MB
+1487.148 (5) Backup run: resumption=5, nonce=fb5347eee28a, begun at=1517032794 (1488s ago), job type=backup
+1487.151 (5) Scheduling a resumption (6) after 300 seconds (1517034582) in case this run gets aborted
+1487.154 (5) Checking if we have a zip executable available
+1487.155 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+1487.156 (5) Creation of backups of directories: already finished
+1487.158 (5) Saving backup status to database (elements: 8)
+1487.160 (5) Database dump (WordPress DB): Creation was completed already
+1487.166 (5) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1487.167 (5) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1487.168 (5) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1487.170 (5) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-others.zip: others: This file has not yet been successfully uploaded: will queue
+1487.171 (5) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db.gz: db: This file has not yet been successfully uploaded: will queue
+1487.172 (5) Saving backup history. Total backup size: 70.3 MB
+1487.175 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+1487.178 (5) Cloud backup selection (1/1): dropbox (last)
+1487.180 (5) Beginning dispatch of backup to remote (dropbox)
+1487.181 (5) Dropbox: begin cloud upload
+1487.360 (5) invalid_request - need to reauthenticate this site with Dropbox (if this fails, then you can also try wiping your settings from the Expert Settings section)
+1487.522 (5) Dropbox Curl error: v1_retired
+1487.525 (5) An error condition has occurred for the first time during this job
+1487.527 (5) Dropbox error when trying to gain access: You do not appear to be authenticated with Dropbox (line: 115, file: /var/www/html/wp-content/plugins/updraftplus/methods/dropbox.php)
+1487.533 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1487.536 (5) Number of backup sets in history: 2; groups (db): 1
+1487.538 (5) Examining (for databases) backup set with group_id=0, nonce=aee52ca889b7, datestamp=1517033445 (Jan 27 2018 06:10:45)
+1487.539 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1487.540 (5) Examining (for databases) backup set with group_id=0, nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+1487.542 (5) This backup set is the backup set just made, so will not be deleted.
+1487.543 (5) Number of backup sets in history: 2; groups (files): 1
+1487.544 (5) Examining (for files) backup set with nonce=aee52ca889b7, datestamp=1517033445 (Jan 27 2018 06:10:45)
+1487.545 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1487.546 (5) Examining (for files) backup set with nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+1487.547 (5) This backup set is the backup set just made, so will not be deleted.
+1487.547 (5) This backup set is the backup set just made, so will not be deleted.
+1487.547 (5) This backup set is the backup set just made, so will not be deleted.
+1487.548 (5) This backup set is the backup set just made, so will not be deleted.
+1487.548 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1487.549 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1487.552 (5) Resume backup (fb5347eee28a, 5): finish run
+1487.554 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1487.556 (5) No email will/can be sent - the user has not configured an email address.
+1487.557 (5) The backup has not finished; a resumption is scheduled
+1847.150 (6) Opened log file at time: Sat, 27 Jan 2018 06:30:42 +0000 on http://ericktsai.com
+1847.151 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.6 WP: 4.0 PHP: 5.5.9-1ubuntu4.16 (Linux droplet1.ericktsai.com 3.13.0-37-generic #64-Ubuntu SMP Mon Sep 22 21:28:38 UTC 2014 x86_64) MySQL: 5.5.40 WPLANG:  Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 2.1M | 2.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+1847.152 (6) Free space on disk containing Updraft's temporary directory: 15808.1 MB
+1847.154 (6) Backup run: resumption=6, nonce=fb5347eee28a, begun at=1517032794 (1848s ago), job type=backup
+1847.155 (6) Scheduling a resumption (7) after 300 seconds (1517034942) in case this run gets aborted
+1847.158 (6) Checking if we have a zip executable available
+1847.159 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+1847.159 (6) Creation of backups of directories: already finished
+1847.160 (6) Saving backup status to database (elements: 8)
+1847.162 (6) Database dump (WordPress DB): Creation was completed already
+1847.168 (6) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1847.169 (6) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1847.170 (6) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1847.170 (6) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-others.zip: others: This file has not yet been successfully uploaded: will queue
+1847.171 (6) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db.gz: db: This file has not yet been successfully uploaded: will queue
+1847.172 (6) Saving backup history. Total backup size: 70.3 MB
+1847.175 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+1847.177 (6) Cloud backup selection (1/1): dropbox (last)
+1847.178 (6) Beginning dispatch of backup to remote (dropbox)
+1847.179 (6) Dropbox: begin cloud upload
+1847.359 (6) invalid_request - need to reauthenticate this site with Dropbox (if this fails, then you can also try wiping your settings from the Expert Settings section)
+1847.519 (6) Dropbox Curl error: v1_retired
+1847.521 (6) An error condition has occurred for the first time during this job
+1847.523 (6) Dropbox error when trying to gain access: You do not appear to be authenticated with Dropbox (line: 115, file: /var/www/html/wp-content/plugins/updraftplus/methods/dropbox.php)
+1847.526 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1847.528 (6) Number of backup sets in history: 2; groups (db): 1
+1847.530 (6) Examining (for databases) backup set with group_id=0, nonce=aee52ca889b7, datestamp=1517033445 (Jan 27 2018 06:10:45)
+1847.531 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1847.532 (6) Examining (for databases) backup set with group_id=0, nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+1847.533 (6) This backup set is the backup set just made, so will not be deleted.
+1847.534 (6) Number of backup sets in history: 2; groups (files): 1
+1847.535 (6) Examining (for files) backup set with nonce=aee52ca889b7, datestamp=1517033445 (Jan 27 2018 06:10:45)
+1847.536 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1847.538 (6) Examining (for files) backup set with nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+1847.539 (6) This backup set is the backup set just made, so will not be deleted.
+1847.540 (6) This backup set is the backup set just made, so will not be deleted.
+1847.540 (6) This backup set is the backup set just made, so will not be deleted.
+1847.540 (6) This backup set is the backup set just made, so will not be deleted.
+1847.540 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1847.542 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1847.546 (6) Resume backup (fb5347eee28a, 6): finish run
+1847.548 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1847.551 (6) No email will/can be sent - the user has not configured an email address.
+1847.552 (6) The backup has not finished; a resumption is scheduled
+2207.172 (7) Opened log file at time: Sat, 27 Jan 2018 06:36:42 +0000 on http://ericktsai.com
+2207.173 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.6 WP: 4.0 PHP: 5.5.9-1ubuntu4.16 (Linux droplet1.ericktsai.com 3.13.0-37-generic #64-Ubuntu SMP Mon Sep 22 21:28:38 UTC 2014 x86_64) MySQL: 5.5.40 WPLANG:  Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 2.1M | 2.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+2207.174 (7) Free space on disk containing Updraft's temporary directory: 15761.6 MB
+2207.176 (7) Backup run: resumption=7, nonce=fb5347eee28a, begun at=1517032794 (2208s ago), job type=backup
+2207.178 (7) Scheduling a resumption (8) after 300 seconds (1517035302) in case this run gets aborted
+2207.180 (7) Checking if we have a zip executable available
+2207.181 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+2207.182 (7) Creation of backups of directories: already finished
+2207.182 (7) Saving backup status to database (elements: 8)
+2207.185 (7) Database dump (WordPress DB): Creation was completed already
+2207.189 (7) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2207.190 (7) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2207.191 (7) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2207.192 (7) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-others.zip: others: This file has not yet been successfully uploaded: will queue
+2207.193 (7) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db.gz: db: This file has not yet been successfully uploaded: will queue
+2207.194 (7) Saving backup history. Total backup size: 70.3 MB
+2207.196 (7) Requesting upload of the files that have not yet been successfully uploaded (5)
+2207.198 (7) Cloud backup selection (1/1): dropbox (last)
+2207.199 (7) Beginning dispatch of backup to remote (dropbox)
+2207.200 (7) Dropbox: begin cloud upload
+2207.390 (7) invalid_request - need to reauthenticate this site with Dropbox (if this fails, then you can also try wiping your settings from the Expert Settings section)
+2207.559 (7) Dropbox Curl error: v1_retired
+2207.562 (7) An error condition has occurred for the first time during this job
+2207.563 (7) Dropbox error when trying to gain access: You do not appear to be authenticated with Dropbox (line: 115, file: /var/www/html/wp-content/plugins/updraftplus/methods/dropbox.php)
+2207.566 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2207.567 (7) Number of backup sets in history: 2; groups (db): 1
+2207.568 (7) Examining (for databases) backup set with group_id=0, nonce=aee52ca889b7, datestamp=1517033445 (Jan 27 2018 06:10:45)
+2207.569 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2207.570 (7) Examining (for databases) backup set with group_id=0, nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+2207.571 (7) This backup set is the backup set just made, so will not be deleted.
+2207.571 (7) Number of backup sets in history: 2; groups (files): 1
+2207.572 (7) Examining (for files) backup set with nonce=aee52ca889b7, datestamp=1517033445 (Jan 27 2018 06:10:45)
+2207.574 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2207.575 (7) Examining (for files) backup set with nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+2207.575 (7) This backup set is the backup set just made, so will not be deleted.
+2207.576 (7) This backup set is the backup set just made, so will not be deleted.
+2207.576 (7) This backup set is the backup set just made, so will not be deleted.
+2207.576 (7) This backup set is the backup set just made, so will not be deleted.
+2207.576 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2207.578 (7) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2207.580 (7) Resume backup (fb5347eee28a, 7): finish run
+2207.582 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2207.584 (7) No email will/can be sent - the user has not configured an email address.
+2207.585 (7) The backup has not finished; a resumption is scheduled
+3322.014 (8) Opened log file at time: Sat, 27 Jan 2018 06:55:16 +0000 on http://ericktsai.com
+3322.015 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.6 WP: 4.0 PHP: 5.5.9-1ubuntu4.16 (Linux droplet1.ericktsai.com 3.13.0-37-generic #64-Ubuntu SMP Mon Sep 22 21:28:38 UTC 2014 x86_64) MySQL: 5.5.40 WPLANG:  Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 2.1M | 2.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+3322.016 (8) Free space on disk containing Updraft's temporary directory: 15828.6 MB
+3322.019 (8) Backup run: resumption=8, nonce=fb5347eee28a, begun at=1517032794 (3322s ago), job type=backup
+3322.020 (8) Long time past since expected resumption time: approx expected=1517035302.1, now=1517036116.9, diff=814.8
+3322.022 (8) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+3322.024 (8) Scheduling a resumption (9) after 300 seconds (1517036416) in case this run gets aborted
+3322.026 (8) Checking if we have a zip executable available
+3322.027 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+3322.027 (8) Creation of backups of directories: already finished
+3322.028 (8) Saving backup status to database (elements: 8)
+3322.030 (8) Database dump (WordPress DB): Creation was completed already
+3322.035 (8) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3322.036 (8) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3322.037 (8) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3322.038 (8) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-others.zip: others: This file has not yet been successfully uploaded: will queue
+3322.039 (8) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db.gz: db: This file has not yet been successfully uploaded: will queue
+3322.040 (8) Saving backup history. Total backup size: 70.3 MB
+3322.042 (8) Requesting upload of the files that have not yet been successfully uploaded (5)
+3322.045 (8) Cloud backup selection (1/1): dropbox (last)
+3322.046 (8) Beginning dispatch of backup to remote (dropbox)
+3322.047 (8) Dropbox: begin cloud upload
+3322.230 (8) invalid_request - need to reauthenticate this site with Dropbox (if this fails, then you can also try wiping your settings from the Expert Settings section)
+3322.487 (8) Dropbox Curl error: v1_retired
+3322.489 (8) An error condition has occurred for the first time during this job
+3322.490 (8) Dropbox error when trying to gain access: You do not appear to be authenticated with Dropbox (line: 115, file: /var/www/html/wp-content/plugins/updraftplus/methods/dropbox.php)
+3322.492 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+3322.494 (8) Number of backup sets in history: 2; groups (db): 1
+3322.495 (8) Examining (for databases) backup set with group_id=0, nonce=aee52ca889b7, datestamp=1517033445 (Jan 27 2018 06:10:45)
+3322.496 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3322.496 (8) Examining (for databases) backup set with group_id=0, nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+3322.498 (8) This backup set is the backup set just made, so will not be deleted.
+3322.499 (8) Number of backup sets in history: 2; groups (files): 1
+3322.499 (8) Examining (for files) backup set with nonce=aee52ca889b7, datestamp=1517033445 (Jan 27 2018 06:10:45)
+3322.500 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3322.501 (8) Examining (for files) backup set with nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+3322.502 (8) This backup set is the backup set just made, so will not be deleted.
+3322.503 (8) This backup set is the backup set just made, so will not be deleted.
+3322.503 (8) This backup set is the backup set just made, so will not be deleted.
+3322.503 (8) This backup set is the backup set just made, so will not be deleted.
+3322.503 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3322.504 (8) Retain: saving new backup history (sets now: 2) and finishing retain operation
+3322.507 (8) Resume backup (fb5347eee28a, 8): finish run
+3322.509 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3322.511 (8) No email will/can be sent - the user has not configured an email address.
+3322.511 (8) The backup has not finished; a resumption is scheduled
+3922.207 (9) Opened log file at time: Sat, 27 Jan 2018 07:05:17 +0000 on http://ericktsai.com
+3922.208 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.6 WP: 4.0 PHP: 5.5.9-1ubuntu4.16 (Linux droplet1.ericktsai.com 3.13.0-37-generic #64-Ubuntu SMP Mon Sep 22 21:28:38 UTC 2014 x86_64) MySQL: 5.5.40 WPLANG:  Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 2.1M | 2.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+3922.209 (9) Free space on disk containing Updraft's temporary directory: 15828.6 MB
+3922.212 (9) Backup run: resumption=9, nonce=fb5347eee28a, begun at=1517032794 (3923s ago), job type=backup
+3922.214 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+3922.215 (9) Creation of backups of directories: already finished
+3922.216 (9) Saving backup status to database (elements: 8)
+3922.219 (9) Database dump (WordPress DB): Creation was completed already
+3922.228 (9) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3922.230 (9) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3922.231 (9) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3922.232 (9) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-others.zip: others: This file has not yet been successfully uploaded: will queue
+3922.233 (9) backup_2018-01-27-0059_Eric_K_Tsai_fb5347eee28a-db.gz: db: This file has not yet been successfully uploaded: will queue
+3922.234 (9) Saving backup history. Total backup size: 70.3 MB
+3922.236 (9) Requesting upload of the files that have not yet been successfully uploaded (5)
+3922.239 (9) Cloud backup selection (1/1): dropbox (last)
+3922.240 (9) Beginning dispatch of backup to remote (dropbox)
+3922.242 (9) Dropbox: begin cloud upload
+3922.418 (9) invalid_request - need to reauthenticate this site with Dropbox (if this fails, then you can also try wiping your settings from the Expert Settings section)
+3922.574 (9) Dropbox Curl error: v1_retired
+3922.577 (9) An error condition has occurred for the first time during this job
+3922.578 (9) Dropbox error when trying to gain access: You do not appear to be authenticated with Dropbox (line: 115, file: /var/www/html/wp-content/plugins/updraftplus/methods/dropbox.php)
+3922.580 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+3922.582 (9) Number of backup sets in history: 2; groups (db): 1
+3922.582 (9) Examining (for databases) backup set with group_id=0, nonce=aee52ca889b7, datestamp=1517033445 (Jan 27 2018 06:10:45)
+3922.583 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3922.584 (9) Examining (for databases) backup set with group_id=0, nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+3922.585 (9) This backup set is the backup set just made, so will not be deleted.
+3922.586 (9) Number of backup sets in history: 2; groups (files): 1
+3922.586 (9) Examining (for files) backup set with nonce=aee52ca889b7, datestamp=1517033445 (Jan 27 2018 06:10:45)
+3922.587 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3922.588 (9) Examining (for files) backup set with nonce=fb5347eee28a, datestamp=1517032794 (Jan 27 2018 05:59:54)
+3922.589 (9) This backup set is the backup set just made, so will not be deleted.
+3922.590 (9) This backup set is the backup set just made, so will not be deleted.
+3922.590 (9) This backup set is the backup set just made, so will not be deleted.
+3922.590 (9) This backup set is the backup set just made, so will not be deleted.
+3922.590 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3922.591 (9) Retain: saving new backup history (sets now: 2) and finishing retain operation
+3922.593 (9) Resume backup (fb5347eee28a, 9): finish run
+3922.595 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3922.597 (9) No email will/can be sent - the user has not configured an email address.
+3922.598 (9) The backup attempt has finished, apparently unsuccessfully

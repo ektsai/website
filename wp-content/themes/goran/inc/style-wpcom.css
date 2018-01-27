@@ -1,0 +1,215 @@
+/*--------------------------------------------------------------
+Comments
+--------------------------------------------------------------*/
+#comments #respond #comment-form-comment,
+#comments #comment-form-share-text-padder,
+#comments #respond .comment-form-fields div.comment-form-input {
+	background: #f1f0f0;
+	border: 1px solid #d2cfcf;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+#comments #respond #comment-form-comment textarea,
+#comments #comment-form-share-text-padder textarea {
+	color: #242424;
+}
+#comments #respond #comment-form-comment.active,
+#comments #respond .comment-form-fields div.comment-form-input.active {
+	border-color: #e74f4e;
+}
+#comments #respond .comment-form-service {
+	border-bottom-color: #f1f0f0;
+}
+#comments #respond .form-submit input#comment-submit {
+	background: #e74f4e !important;
+	border: 0;
+	-moz-border-radius: 4px !important;
+	-webkit-border-radius: 4px !important;
+	border-radius: 4px !important;
+}
+#comments #respond .form-submit input#comment-submit:hover {
+	background: #242424 !important;
+}
+
+/*--------------------------------------------------------------
+PollDaddy
+--------------------------------------------------------------*/
+.PDS_Poll .pds-box {
+	border-color: #d2cfcf !important;
+}
+.PDS_Poll .pds-answer {
+	border-top-color: #f1f0f0 !important;
+	border-bottom-color: #f1f0f0 !important;
+}
+.PDS_Poll .pds-vote-button {
+	padding: 12px 24px !important;
+	background: #e74f4e !important;
+	border: 0 !important;
+	-moz-border-radius: 4px !important;
+	-webkit-border-radius: 4px !important;
+	border-radius: 4px !important;
+}
+.PDS_Poll .pds-vote-button:hover {
+	background: #242424 !important;
+	border-color: #242424 !important;
+}
+
+/*--------------------------------------------------------------
+Reblogger
+--------------------------------------------------------------*/
+.hentry .wpcom-reblog-snapshot .reblogger-note {
+	padding-bottom: 0;
+	border-bottom-color: #f1f0f0;
+}
+body .hentry .wpcom-reblog-snapshot .reblogger-note-content blockquote {
+	margin-bottom: 24px;
+	border-left-color: #e74f4e;
+	font-size: 1em;
+}
+body.rtl .hentry .wpcom-reblog-snapshot .reblogger-note-content blockquote {
+	border-right-color: #e74f4e;
+}
+
+/*--------------------------------------------------------------
+Widgets
+--------------------------------------------------------------*/
+/* Akismet */
+.widget_akismet_widget .a-stats a {
+	padding: 12px 24px;
+	background: #e74f4e;
+	border: 0;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+.widget_akismet_widget .a-stats a:hover {
+	background: #242424;
+}
+.footer-widget-area .widget_akismet_widget .a-stats a {
+	background: #e74f4e;
+	color: #fff;
+}
+.footer-widget-area .widget_akismet_widget .a-stats a:hover {
+	background: #242424;
+	color: #fff;
+}
+.footer-widget-area .widget_akismet_widget .a-stats .count {
+	color: #fff;
+}
+
+/* Flickr */
+.widget_flickr #flickr_badge_uber_wrapper td a:last-child {
+	padding: 12px 24px;
+	background: #e74f4e !important;
+	border: 0;
+}
+.widget_flickr #flickr_badge_uber_wrapper td a:last-child:hover,
+.widget_flickr #flickr_badge_uber_wrapper td a:last-child:focus,
+.widget_flickr #flickr_badge_uber_wrapper td a:last-child:active {
+	background: #242424 !important;
+	border-color: #242424 !important;
+}
+.footer-widget-area .widget_flickr #flickr_badge_uber_wrapper td a:last-child {
+	color: #242424;
+}
+.footer-widget-area .widget_flickr #flickr_badge_uber_wrapper td a:last-child:hover,
+.footer-widget-area .widget_flickr #flickr_badge_uber_wrapper td a:last-child:focus,
+.footer-widget-area .widget_flickr #flickr_badge_uber_wrapper td a:last-child:active {
+	background: #d2cfcf !important;
+	border-color: #d2cfcf !important;
+	color: #242424;
+}
+
+/* Goodreads */
+.widget_goodreads div[class^="gr_custom_each_container"] {
+	border-top-color: #f1f0f0;
+}
+.widget_goodreads div[class^="gr_custom_each_container"] a:hover,
+.widget_goodreads div[class^="gr_custom_each_container"] a:focus,
+.widget_goodreads div[class^="gr_custom_each_container"] a:active {
+	color: #e74f4e;
+}
+.footer-widget-area .widget_goodreads div[class^="gr_custom_each_container"] {
+	border-top-color: #e1dfdf;
+}
+.footer-widget-area .widget_goodreads div[class^="gr_custom_each_container"] a:hover,
+.footer-widget-area .widget_goodreads div[class^="gr_custom_each_container"] a:focus,
+.footer-widget-area .widget_goodreads div[class^="gr_custom_each_container"] a:active {
+	color: #e74f4e;
+}
+.footer-widget-area .widget_goodreads div[class^="gr_custom_author"] {
+	color: #757575;
+}
+
+/* Lists */
+.widget_authors li,
+.widget_author_grid li,
+.widget_jp_blogs_i_follow li ,
+.widgets-list-layout li,
+.widget_top-clicks li,
+.widget_top-posts li,
+.widget.top_rated li,
+.widget_upcoming_events_widget li,
+.widget_authors ul ul {
+	border-top-color: #f1f0f0;
+}
+.footer-widget-area .widget_authors li,
+.footer-widget-area .widget_author_grid li,
+.footer-widget-area .widget_jp_blogs_i_follow li,
+.footer-widget-area .widget_top-clicks li,
+.footer-widget-area .widget_top-posts li,
+.footer-widget-area .widget.top_rated li,
+.footer-widget-area .widget_upcoming_events_widget li,
+.footer-widget-area .widget_authors ul ul {
+	border-top-color: #e1dfdf;
+}
+
+/* Milestone */
+.footer-widget-area .milestone-widget .milestone-header {
+	background: #fff;
+	color: #242424;
+}
+.footer-widget-area .milestone-widget .milestone-countdown,
+.footer-widget-area .milestone-widget .milestone-message {
+	border-color: #d2cfcf;
+}
+
+/* Recent Comments */
+.widget_recent_comments table {
+	border: 0;
+}
+.widget_recent_comments td {
+	border-bottom-color: #f1f0f0;
+	border-left: 0;
+}
+.widget_recent_comments td.recentcommentstextend {
+	border-bottom-color: #f1f0f0 !important;
+}
+.widget_recent_comments td.recentcommentstexttop {
+	border-bottom: 1px solid #f1f0f0;
+	padding: 12px 0 12px 12px;
+}
+.footer-widget-area .widget_recent_comments td {
+	border-bottom-color: #e1dfdf !important;
+}
+
+/* Top Rated */
+.widget.top_rated .pd_top_rated_holder_posts > p {
+	border-bottom-color: #d2cfcf;
+}
+.widget.top_rated .pd_top_rated_holder_posts > p:first-child {
+	background: #f1f0f0;
+	border-top-color: #d2cfcf;
+}
+.widget.top_rated ul {
+	border-bottom-color: #d2cfcf;
+}
+.footer-widget-area .widget.top_rated .pd_top_rated_holder_posts > p,
+.footer-widget-area .widget.top_rated ul {
+	border-bottom-color: #e1dfdf;
+}
+.footer-widget-area .widget.top_rated .pd_top_rated_holder_posts > p:first-child {
+	background: #e1dfdf;
+	border-top-color: #e1dfdf;
+}
